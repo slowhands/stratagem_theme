@@ -1,0 +1,10 @@
+/* stratagem.overrides */
+
+hgroup, section{ padding-bottom:1em; }
+header{ padding-bottom:1em; }
+
+article, section, hgroup, header{ max-width:940px; min-width:768px; }
+article .row { padding-bottom:1em; }
+article.grid .row { padding-bottom:0; }
+
+body > section, body > header { margin: 0 auto; }
